@@ -1,0 +1,236 @@
+
+html,body{
+    width: 100%;
+    overflow-x: hidden;    
+}
+.bx{
+    width: 1012px;
+    margin:0 auto;
+}
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+.bg{
+     background:url("../images/bg.png") no-repeat center top;
+    background-size: 100% 100%; 
+    overflow: hidden;
+}
+header{ 
+    width: 100%;
+    height:640px;
+    position: relative;
+}
+header img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.salesreward{
+    width:1012px;
+    height: 538px;
+    margin-top:30px; 
+  
+}
+.salesreward_title{
+    background:#c31e41;
+    width:100%;
+    height:69px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+.salesreward_title  .salesreward_title_wz{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height:69px;
+}
+/* 商家优惠 */
+.box-list-container {
+    position: relative;
+    width: 1012px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom:38px; 
+}
+
+.hot-store .box-list-container{
+    margin: 20px auto 0;
+}
+
+.slider-prev {
+    background-image: url("../images/icon-left.png");
+    position: absolute;
+    width: 44px;
+    height: 87px;
+    top: 50%;
+    left:0%;
+    margin-top: -44px;
+    z-index: 20;
+}
+
+.slider-next {
+    background-image: url("../images/icon-right.png");
+    position: absolute;
+    width: 44px;
+    height: 87px;
+    top: 50%;
+    right:0%;
+    margin-top: -44px;
+    z-index: 20;
+}
+
+.salesreward ul.move-box {
+    position: relative;
+    width: 10000px;
+    overflow: hidden;
+    margin-bottom: 15px; 
+}
+
+.salesreward ul.move-box li {
+    float: left;
+    width: 1012px;
+    height: auto;
+    overflow: hidden;
+    /* position: relative;
+    width: 875px;
+    height: auto;
+    float: left;
+    overflow: hidden; */
+}
+/* 遮罩层*/
+ .salesreward ul.move-box li a{
+    float: left;
+    display: block;
+    width: 193px;
+    height: 118px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    margin-right:11px;
+    margin-top: 10px;
+}
+ .salesreward ul.move-box li a:nth-child(5n){
+    margin-right: 0;
+}
+.salesreward ul.move-box li a .icon_img{
+    /* background-image: url("../images/image1.png");     */
+    width: 143px;
+    height: 50px;
+    display: block;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 18px auto;
+}
+.salesreward ul.move-box li a  .sales_discount{
+    font-size:15px;
+    color:#fff;
+    width: 100%;
+    height: 32px;
+    background: #e63156;
+    line-height:32px;
+    text-align: center;
+}
+
+/* 商家促销 */
+.salespromotion_title{
+    background: #c31e41;
+    width: 100%;
+    height: 69px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+.salespromote_title_wz{
+   font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 69px;
+}
+.sales_promotion{
+    /*background: url("../images/sales_shoe.png") center center no-repeat;*/
+    width:1012px;
+    height:721px;
+    margin-top: 36px;
+    margin-bottom: 316px;
+}
+.sales_promotion .sales_promotionUl{
+    padding: 70px  70px;
+    width: 890px;
+}
+.sales_promotion .sales_promotionUl li a{
+    width: 50%; 
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.sales_promotion .sales_promotionUl li img{
+    width: 422px;
+    height: 144px;
+    display: block;
+}
+.sales_promotion ul.move-box {
+    position: relative;
+    width: 10000px;
+    overflow: hidden;
+    margin-bottom: 15px; 
+     /*padding-top: 20px;
+    padding-left: 75px;
+    margin: 50px 10px 10px 0;*/
+  
+}
+
+.sales_promotion ul.move-box li {
+    float: left;
+    width: 1012px;
+    height: auto;
+    overflow: hidden;
+}
+.sales_promotion ul.move-box li a{
+    margin-right: 14px;
+    margin-bottom: 14px;
+    width:498px; 
+    float: left;
+}
+.sales_promotion ul.move-box li a:nth-child(2n){
+    margin-right: 0;
+}
+.sales_promotion ul.move-box li .product-item img{ 
+    width:498px;
+    height: 170px;
+    display: block;
+}
+.float-menu{
+    position: fixed;
+    background:url("../images/float-menu.png") no-repeat;
+    width: 218px;
+    height: 397px;
+    right: 20px;
+    bottom: 150px;
+    overflow: hidden;
+    z-index: 99;
+}
+.float-menu ul {
+    width: 218px;
+    height: auto;
+    margin:50px auto 0;
+}
+.float-menu ul li {
+    width: auto;
+    height: 58px;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+.float-menu .top-btn {
+    height: 78px;
+    margin-top: 28px;
+}
+
+
+
